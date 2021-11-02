@@ -42,7 +42,7 @@ function notAuthorized() {
 
     function logIn(event) {
         event.preventDefault();
-        console.log("логин");
+        console.log("Логин");
         login = loginInput.value;
 
         if (login.trim()) {

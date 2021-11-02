@@ -332,9 +332,11 @@ line-height: 21px;
 }
 
 .modal-dialog{
-    max-width: 780px;
+    display: flex;
+    align-items: flex-start;
+    max-width: 380px;
     width: 95%;
-    min-height: 552px;
+    min-height: 252px;
     background: #FFFFFF;
     border-radius: 5px;
     margin: auto;
